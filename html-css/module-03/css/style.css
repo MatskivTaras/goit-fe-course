@@ -1,0 +1,33 @@
+body {
+    width: auto;
+    height: auto;
+}
+
+.navigation {   
+    text-align: center;
+    margin-top: 30px;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 150px;
+}
+
+.article {
+    margin-top: 75px;        
+}
+
+.article li {
+    display: inline-block;
+    width: 420px;
+    margin-left: 150px;
+}
+
+button {
+    margin-left: 43%;
+    margin-top: 30px;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
