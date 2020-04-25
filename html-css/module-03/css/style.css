@@ -1,33 +1,36 @@
-body {
-    width: auto;
-    height: auto;
-}
-
-.navigation {   
+.navigation {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
 }
 
 .navigation li {
     display: inline;
-    margin-right: 150px;
+    margin-right: 70px;
 }
 
-.article {
-    margin-top: 75px;        
+.wrapper {
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
 }
 
 .article li {
-    display: inline-block;
-    width: 420px;
-    margin-left: 150px;
+    list-style-type: none;
+    margin-top: 75px;
 }
 
-button {
-    margin-left: 43%;
-    margin-top: 30px;
-    padding: 5px;
+.load-button {
     width: 150px;
     height: 50px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 20px;
 }
