@@ -11,7 +11,7 @@
 }
 
 .wrapper {
-    width: 420px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
     padding: 0px;
@@ -19,7 +19,9 @@
 
 .article li {
     list-style-type: none;
-    margin-top: 75px;
+    display: inline-block;
+    width: 420px;
+    margin: 60px;
 }
 
 .load-button {
