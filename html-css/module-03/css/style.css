@@ -1,8 +1,23 @@
-.navigation {
-    text-align: center;
+body {
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0px;
+}
+
+header {
+    height: 40px;
     margin-top: 30px;
+}
+
+nav {
+    height: 30px;
+    margin: 5px 30px 5px 100px;
+}
+
+.navigation {
+    margin: 5px 20px 5px 20px;
+    text-align: center;
 }
 
 .navigation li {
@@ -10,11 +25,9 @@
     margin-right: 70px;
 }
 
-.wrapper {
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px;
+.article {
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .article li {
