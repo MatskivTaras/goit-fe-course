@@ -26,8 +26,8 @@ header {
 }
 .articles li {
     display: inline-block;
-    width: 420px;       
-    margin-bottom: 100px;
+    width: 420px;
+    margin-bottom: 100px;    
 }
 .rigth_article {
     left: 100%;
@@ -38,7 +38,11 @@ header {
     height: 280px;    
 }
 .articles li p{
+    font-size: 16px;
     padding: 10px 0 10px 0;
+}
+.articles li h2{
+    font-size: 25px;    
 }
 .load-button {
     width: 150px;
