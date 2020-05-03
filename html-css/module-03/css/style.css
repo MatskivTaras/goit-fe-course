@@ -24,14 +24,17 @@ header {
     padding: 0;
     font-size: 0;
 }
+.rigth_article {
+    left: 100%;
+    margin-right: 60px;
+}
 .articles li {
     display: inline-block;
     width: 420px;
     margin-bottom: 100px;    
 }
-.rigth_article {
-    left: 100%;
-    margin-right: 60px;
+.articles li:nth-last-child(-n+2) {
+    margin-bottom: 0;
 }
 .articles li img{
     width: 100%;
@@ -43,6 +46,9 @@ header {
 }
 .articles li h2{
     font-size: 25px;    
+}
+footer {
+    margin-top: 30px;
 }
 .load-button {
     width: 150px;
