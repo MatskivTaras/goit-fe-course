@@ -46,7 +46,6 @@
 	font-style: normal;
 }
 
-
 html,
 body,
 div,
@@ -149,7 +148,7 @@ iframe {
 .wrapper {
 	width: 1110px;
 	min-height: 30px;
-	margin: 0 auto;	
+	margin: 0 auto;
 }
 .clearfix:after {
 	content: "";
@@ -157,17 +156,17 @@ iframe {
 	clear: both;
 }
 /*header styles begin*/
-header {	
+header {
 	width: 100%;
 	margin: auto;
-	padding: 33px 0;	
+	padding: 33px 0;
 }
 header .page_title {
 	font-family: 'Roboto-Light';
 	font-size: 30px;
 	line-height: 1;
 	letter-spacing: -1.6px;
-	float: left;		
+	float: left;
 }
 header .page_title span {
 	font-family: 'Roboto-Black';
@@ -180,7 +179,7 @@ header nav {
 	font-size: 0px;
 }
 header nav li {
-	display: inline-block;	
+	display: inline-block;
 	margin-left: 32px;
 }
 header nav a {
@@ -200,14 +199,13 @@ header nav a:hover {
 
 /*products styles begin*/
 .products {
-	clear: both;
 	margin: 67px auto 0;
 }
 .products_block_title {
 	color: #515151;
 	font-size: 48px;
 	text-align: center;
-	line-height: 32px;
+	line-height: 40px;
 	margin: 0 0 0 20px;
 	letter-spacing: -1.24px;
 	text-transform: uppercase;
@@ -219,7 +217,7 @@ header nav a:hover {
 	height: 5px;
 	width: 161px;
 	display: block;
-    margin: 35px auto 0;
+    margin: 28px auto 0;
 	position: relative;
 	background: #1abc9c;
 }
@@ -230,7 +228,7 @@ header nav a:hover {
 .products .products_list li {
 	float: left;
 	width: 255px;
-	height: 320px;	
+	height: 320px;
     margin: 0 30px 30px 0;
 }
 .products .products_list li:nth-child(4n) {
@@ -240,10 +238,10 @@ header nav a:hover {
     margin-bottom: 0;
 }
 .products .product_info {
-	width: 100%;	
-	height: 100%;	
+	width: 100%;
+	height: 100%;
 	margin: 0;
-	padding: 0;	
+	padding: 0;
 }
 .products .products_list li .product_info .product_picture {
 	width: 100%;
@@ -303,19 +301,19 @@ header nav a:hover {
 	color: #555252;
 	font-size: 48px;
 	text-align: center;
-	line-height: 32px;
+	line-height: 40px;
 	margin: 0 5px 0 0;
 	letter-spacing: -1.24px;
 	text-transform: uppercase;
 	font-family: 'Roboto-Black';
 }
-.news_block_title:after {
+.news_block_title:after {	
 	left: -2px;
 	content: '';
 	height: 5px;
 	width: 161px;
 	display: block;
-    margin: 35px auto 0;
+    margin: 33px auto 0;
 	position: relative;
 	background: #1abc9c;
 }
@@ -323,12 +321,11 @@ header nav a:hover {
 	margin: 104px auto 0;
 }
 .news .news_list {
-	overflow: auto;
 	width: 100%;
 	margin: 80px auto 45px;
 }
 .news .news_list li {
-	float: left;	
+	float: left;
 	width: 350px;
 	height: 495px;
 	margin: 0 30px 0 0;
@@ -349,10 +346,10 @@ header nav a:hover {
 	color: #555252;
 	font-size: 18px;
 	line-height: 26px;
-	letter-spacing: -0.12px;	
-	padding: 5px 0 0 0;	
+	letter-spacing: -0.12px;
+	padding: 5px 0 0 0;
 }
-.news .news_list li h4:after {		
+.news .news_list li h4:after {
 	content: '';
     height: 3px;
     width: 135px;
@@ -367,7 +364,7 @@ header nav a:hover {
 	font-size: 14px;
 	line-height: 26px;
 	letter-spacing: -0.3px;
-    padding: 20px 0 0 0;	
+    padding: 20px 0 0 0;
 }
 .news .news_list li button {
 	width: 160px;
