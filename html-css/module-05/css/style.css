@@ -1,0 +1,598 @@
+@font-face {
+	font-family: 'OpenSans-Regular';
+	src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+	url('../fonts/OpenSans-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url('../fonts/OpenSans-Light.woff2') format('woff2'),
+	url('../fonts/OpenSans-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto-Black';
+	src: url('../fonts/Roboto-Black.woff2') format('woff2'),
+	url('../fonts/Roboto-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSans-Bold';
+	src: url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+	url('../fonts/OpenSans-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSans-SemiBold';
+	src: url('../fonts/OpenSans-SemiBold.woff2') format('woff2'),
+	url('../fonts/OpenSans-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto-Light';
+	src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+	url('../fonts/Roboto-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pe-icon-7-stroke';
+    src: url('../fonts/Pe-icon-7-stroke.woff2') format('woff2'),
+        url('../fonts/Pe-icon-7-stroke.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+button,
+fieldset,
+form,
+input,
+label,
+legend,
+textarea,
+select,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+a,
+b,
+i,
+u,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	line-height: inherit;
+	vertical-align: baseline;
+	background: none;
+	white-space: normal;
+}
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	font-family: 'OpenSans-Regular';
+	text-decoration: none;
+}
+form {
+	height: inherit;
+}
+iframe {
+	width: 100%;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/*header styles begin*/
+.head-wrap{
+	width: 1110px;
+	min-height: 30px;
+	margin: 0 auto;
+}
+header {
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	padding: 33px 0;
+}
+header .page-title {
+	font-family: 'Roboto-Light';
+	font-size: 30px;
+	line-height: 1;
+	letter-spacing: -1.6px;
+	float: left;
+}
+header .page-title span {
+	font-family: 'Roboto-Black';
+	color: #1abc9c;
+}
+header nav {
+	float: right;
+	margin: 0px;
+	padding: 3px 0 0 0;
+	font-size: 0px;
+}
+header nav ul li {
+	display: inline-block;
+	margin-left: 32px;
+}
+header nav a {
+	color: #0f0101;
+	font-size: 14px;
+	letter-spacing: -0.3px;
+	font-family: 'OpenSans-Bold';
+	text-transform: uppercase;
+}
+header nav li:nth-child(1) a {
+	color: #1abc9c;
+}
+header nav a:hover {
+	color: #1abc9c;
+}
+/*header styles end*/
+
+/*slider styles end*/
+.slider {
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.slider .slide {
+	position: relative;
+	height: 600px;
+}
+.slider .slide img {
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.slider .front-layer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(50, 50, 50, 0.5);
+	z-index: 2;
+}
+.slider .slide-text {
+	position: absolute;
+    width: 800px;
+	height: 150px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: left;
+	text-transform: uppercase;
+	color: white;
+	z-index: 3;
+}
+.slider .slide-text h2 {
+	font-family: 'Roboto-Black';
+	font-size: 60px;
+}
+.slider .slide-text h3 {
+	font-family: 'Roboto-Light';
+	font-size: 24px;
+}
+.slider .button-prev, .slider .button-next {
+	position: absolute;
+	width: 105px;
+	height: 105px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 1;
+	border: none;
+	background: rgb(85, 159, 141);
+	cursor: pointer;
+	font-family: 'Myriad Pro Regular';
+	text-align: center;
+	font-size: 100px;
+	line-height: 90px;
+	color: white;
+}
+.slider .button-prev {
+	left: 50%;
+	margin-left: -555px;
+}
+.slider .button-next {
+	right: 50%;
+	margin-right: -555px;
+}
+.slider .slick-disabled.button-next, .slider .slick-disabled.button-prev {
+	background: rgba(85, 159, 141, 0.35);
+}
+.slick-dots {
+	width: 125px;
+	height: 40px;
+	display: block;
+	position: absolute;
+	top: 90%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	padding: 0;
+}
+.slick-dots li {
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 40px 0 0;
+	padding: 0;
+	cursor: pointer;
+}
+.slick-dots li:last-child {
+	margin: 0 0 0 0;
+}
+.slick-dots li button {
+	display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+	height: 10px;
+	padding: 10px;
+	opacity: 0.4;
+    font-size: 0px;
+	border: 2px solid white;
+	background: rgb(85, 159, 141);
+	cursor: pointer;
+}
+.slick-dots li button:hover, .slick-dots li button:focus {
+	opacity: 1;
+}
+.slick-dots li.slick-active button {
+	opacity: 1;
+}
+/*slider styles end*/
+
+/*products styles begin*/
+.products {
+	position: relative;
+	background: rgb(233, 240, 253);
+	width: 100%;
+	height: 620px;
+}
+.products-wrap {
+    width: 1110px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+	margin: 0 auto;
+	padding: 100px 0;
+    z-index: 1;
+}
+.products-block-title {
+	font-family: 'Roboto-Black';
+    text-align: center;
+    color: #515151;
+	font-size: 48px;
+    letter-spacing: -1.24px;
+    text-transform: uppercase;
+    height: 80px;
+    margin: 0 auto;
+}
+.products-block-title:after {
+	left: -7px;
+	content: '';
+	height: 5px;
+	width: 161px;
+	display: block;
+    margin: 28px auto 0;
+	background: #1abc9c;
+}
+.products .products-list {
+	width: 100%;
+	margin: 93px auto 0;
+}
+.products .products-list li {
+	float: left;
+	width: 255px;
+	height: 320px;
+	margin: 0 30px 30px 0;
+}
+.products .products-list li:nth-child(4n) {
+	margin-right: 0;
+}
+.products .products-list li:nth-last-child(-n+4) {
+    margin-bottom: 0;
+}
+.products .product-info {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.products .product-picture {
+	position: absolute;
+	width: 100%;
+	height: 280px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	background: white;
+	z-index: 1;
+}
+.products .product-picture img {
+	width: 100%;
+	height: 100%;
+}
+.products .product-name {
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	top: 280px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 -2px 0 0;
+	z-index: 1;
+	background: #323232;
+}
+.products .product-price {
+	position: absolute;
+	width: 55px;
+	height: 40px;
+	top: 280px;
+	bottom: 0;
+	left: 200px;
+	right: 0;
+	margin: 0 -2px 0 0;
+	z-index: 1;
+	background: #8c8c8c;
+}
+.products .products-list .product-info h4 {
+	color: #fff;
+	font-size: 18px;
+	line-height: 32px;
+	letter-spacing: -0.7px;
+	text-transform: uppercase;
+	font-family: 'Roboto-Black';
+	margin: 6px 0px 0 14px;
+}
+.products .products-list li .product-info .product-price h4:before {
+	font-family: 'Roboto-Black';
+	content: "$";
+}
+.products .products-list li .events-box-before {
+	position: absolute;
+    top: 0;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+	margin: 0 auto;
+	background: black;
+	opacity: 0;
+	border: 10px solid white;
+	z-index: 3;
+}
+.products .products-list li .events-box-after {
+	position: absolute;
+    top: 0;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+	margin: 0 auto;
+	background: black;
+	opacity: 0;
+	border: 10px solid white;
+	z-index: 2;
+}
+.products .products-list .events {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+    width: 170px;
+	height: 110px;
+    margin: 80px auto;
+	padding: 0;
+	opacity: 0;
+	z-index: 4;
+}
+.products .products-list .events li {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+}
+.products .products-list .events li:nth-child(3) {
+	margin-right: 0;
+}
+.products .products-list .events li:last-child {
+	width: 170px;
+	margin: 0;
+}
+.products .events li button {
+	border: none;
+	width: 100%;
+	height: 100%;
+	font-family: 'Pe-icon-7-stroke';
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+.products .events li button h5 {
+	float: left;
+	font-family: 'Pe-icon-7-stroke';
+	font-size: 30px;
+	padding: 0;
+    margin-left: 20px;
+}
+.products .events li button h6 {
+	float: right;
+	font-family: 'Myriad Pro Regular';
+	text-transform: uppercase;
+	font-size: 14px;
+    padding: 0;
+    margin-top: 7px;
+    margin-right: 20px;
+}
+.products .events li .like {
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid white;
+}
+.products .events li .shuffle {
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+.products .events li .clock {
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+}
+.products .events li .add-to-cart {
+	border: 1px solid white;
+	background: rgba(50, 50, 50, 1);
+}
+.products .product-info .events-box-before:hover {
+	opacity: 0.5;
+}
+.products .product-info .events-box-before:hover ~ .product-name {
+	background: #1abc9c;
+}
+.products .product-info .events-box-before:hover ~ .product-price {
+	background: #7fd9c7;
+}
+.products .product-info .events-box-before:hover ~ .events {
+	opacity: 1;
+}
+.products .product-info .events:hover {
+	opacity: 1;
+}
+.products .product-info .events:hover ~ .product-name {
+	background: #1abc9c;
+}
+.products .product-info .events:hover ~ .product-price {
+	background: #7fd9c7;
+}
+.products .product-info .events:hover ~ .events-box-after {
+	opacity: 0.5;
+}
+.products .events li button:hover {
+	border: none;
+	background: #1abc9c;
+}
+/*products styles end*/
+
+/*footer styles begin*/
+.creator-info {
+	width: 100%;
+	height: 90px;
+	margin: 0 auto;
+	background: #323232;
+	font-family: 'Myriad Pro Regular';
+	font-size: 16px;
+	text-align: center;
+	color: #fefefe;
+}
+.creator-info h2 {
+	display: inline-block;
+	padding-top: 40px;
+}
+.creator-info h2 span{
+	color: #46bfa9;
+}
+/*footer styles end*/
