@@ -279,7 +279,7 @@ header nav a:hover {
 	text-align: center;	
 	font-family: 'Pe-icon-7-stroke';
 	font-size: 100px;
-	line-height: 90px;
+    line-height: 100px;
 	color: white;
 }
 .slider .button-prev {
