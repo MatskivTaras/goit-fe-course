@@ -240,7 +240,7 @@ header nav a:hover {
 	bottom: 0;
 	right: 0;
 	left: 0;
-	background: rgba(50, 50, 50, 0.5);
+	background: rgba(24, 24, 25, 0.7);
 	z-index: 2;
 }
 .slider .slide-text {
@@ -276,8 +276,8 @@ header nav a:hover {
 	border: none;
 	background: rgb(85, 159, 141);
 	cursor: pointer;
-	font-family: 'Myriad Pro Regular';
-	text-align: center;
+	text-align: center;	
+	font-family: 'Pe-icon-7-stroke';
 	font-size: 100px;
 	line-height: 90px;
 	color: white;
