@@ -240,7 +240,7 @@ header nav a:hover {
 	bottom: 0;
 	right: 0;
 	left: 0;
-	background: rgba(24, 24, 25, 0.7);
+	background: rgba(24, 24, 25, 0.52);
 	z-index: 2;
 }
 .slider .slide-text {
