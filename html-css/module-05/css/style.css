@@ -454,18 +454,7 @@ header nav a:hover {
 	font-family: 'Roboto-Black';
 	content: "$";
 }
-.products .products-list li .events-box-before {
-	position: absolute;
-    top: 0;
-    bottom: 40px;
-    left: 0;
-    right: 0;
-	margin: 0 auto;
-	background: black;
-	opacity: 0;
-	border: 10px solid white;
-	z-index: 3;
-}
+.products .products-list li .events-box-before,
 .products .products-list li .events-box-after {
 	position: absolute;
     top: 0;
@@ -476,6 +465,11 @@ header nav a:hover {
 	background: black;
 	opacity: 0;
 	border: 10px solid white;
+}
+.products .products-list li .events-box-before {
+	z-index: 3;
+}
+.products .products-list li .events-box-after {
 	z-index: 2;
 }
 .products .products-list .events {
