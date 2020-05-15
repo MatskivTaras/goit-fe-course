@@ -473,7 +473,7 @@ header nav a:hover {
 	z-index: 2;
 }
 .products .products-list .events {
-	position: absolute;
+	position: absolute;	
 	top: 0;
 	bottom: 0;
 	right: 0;
