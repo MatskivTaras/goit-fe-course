@@ -1,0 +1,45 @@
+@media (min-width: 1024px) {
+	/*header*/
+	header {
+		width: 940px;
+		top: 0;
+		left: 0;
+		right: 0;
+		margin: 50px auto;
+		padding: 0;
+	}
+
+	h1 {
+		padding-top: 5px;
+	}
+
+	/*banner*/
+	.banner {
+		max-width: 1440px;
+		margin: 0 auto;
+	}
+
+	.banner h2 {
+		font-size: 52px;
+	}
+
+	/*partners*/
+	.partners ul {
+		width: 940px;
+		margin: 30px auto;
+		display: flex;
+	}
+
+	.partners ul li:nth-child(odd) {
+		margin-bottom: 0;
+	}
+
+	.partners ul li:nth-child(even) {
+		order: 1;
+	}
+
+	/*footer*/
+	footer button {
+		width: 190px;
+	}
+}
