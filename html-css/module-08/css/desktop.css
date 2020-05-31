@@ -1,16 +1,12 @@
-@media (min-width: 1024px) {
+@media (min-width: 960px) {
 	/*header*/
 	header {
 		width: 940px;
 		top: 0;
 		left: 0;
 		right: 0;
-		margin: 50px auto;
+		margin: 30px auto;
 		padding: 0;
-	}
-
-	h1 {
-		padding-top: 5px;
 	}
 
 	/*banner*/
@@ -19,8 +15,36 @@
 		margin: 0 auto;
 	}
 
+	.banner picture img {
+		object-fit: none;
+	}
+
 	.banner h2 {
+		top: 21%;
 		font-size: 52px;
+		letter-spacing: -1px;
+	}
+
+	.banner p {
+		top: 53%;
+	}
+
+	.banner button {
+		top: 65%;
+	}
+
+	@media (min-width: 1440px) {
+		.banner h2 {
+			top: 31%;
+		}
+
+		.banner p {
+			top: 52%;
+		}
+
+		.banner button {
+			top: 60%;
+		}
 	}
 
 	/*partners*/

@@ -1,4 +1,4 @@
-@media (min-width: 600px) {
+@media (min-width: 768px) {
 	/*header*/
 	header {
 		flex-direction: row;
@@ -16,20 +16,22 @@
 
 	/*banner*/
 	.banner h2 {
-		max-width: 600px;
-		top: 215px;
+		max-width: 768px;
+		top: 31%;
+		padding: 0 100px;
 		font-size: 50px;
+		letter-spacing: 1px;
 	}
 
 	.banner p {
-		max-width: 600px;
-		top: 360px;
+		max-width: 768px;
+		top: 52%;
 		font-size: 24px;
 	}
 
 	.banner button {
 		width: 225px;
-		top: 420px;
+		top: 60%;
 	}
 
 	/*partners*/
@@ -40,13 +42,6 @@
 	.partners ul {
 		margin: 30px 17%;
 		column-count: 2;
-	}
-
-	@media (max-width: 690px) {
-		.partners ul {
-			margin-left: 5%;
-			margin-right: 5%;
-		}
 	}
 	
 	.partners ul li {

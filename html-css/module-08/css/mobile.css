@@ -54,27 +54,28 @@ h1 {
 }
 
 .banner h2 {	
-	position: absolute;
-	max-width: 286px;
-    top: 42%;
+    position: absolute;
+    max-width: 320px;
+    top: 39%;
     left: 0;
     right: 0;
     margin: 0 auto;
+    padding: 0 15px;
     font-family: var(--ffMonserratB);
     text-transform: uppercase;
-	font-size: 30px;
+    font-size: 30px;
     letter-spacing: -0.5px;
-	z-index: 1;
+    z-index: 1;
 }
 
 .banner p {
     position: absolute;
-    max-width: 286px;
+    max-width: 320px;
     top: 57%;
     left: 0;
     right: 0;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 50px;
     font-family: var(--ffRobotoL);
     font-size: 18px;
     z-index: 1;
