@@ -215,7 +215,7 @@
 	background: var(--underline-color);
 }
 
-/* service */
+/* services */
 .services {
 	margin: 40px auto;
 }
@@ -397,7 +397,7 @@
 }
 
 /* social-networks panel */
-.social-links {	
+.social-links {
 	width: 223px;
 	height: 55px;
 	display: -webkit-box;
